@@ -13,10 +13,10 @@ for development and testing of configuration files and non-Nix codes.
 
 The environment sets up the pgtk version of emacs fetched from 
 `nixpkgs-unstable` for the stable version and `nix-community/emacs-overlay`.  
-The shell creates an alias `emacs` the loads configuration from
-`~/Sources/dotemacs`.
+
+The shell creates an alias `emacs` the loads configuration from the `DOTEMACS`
+variable (set to `$HOME/Sources/dotemacs` by default).
 
   - `.#emacs-stable`
   - `.#emacs-unstable`
   - `.#emacs-master`
-
